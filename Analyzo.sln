@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzo.Android", "Analyzo\Analyzo.Android\Analyzo.Android.csproj", "{648443D7-1A92-4A78-A981-606D8291AF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzo", "Analyzo\Analyzo\Analyzo.csproj", "{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648443D7-1A92-4A78-A981-606D8291AF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648443D7-1A92-4A78-A981-606D8291AF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648443D7-1A92-4A78-A981-606D8291AF4E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{648443D7-1A92-4A78-A981-606D8291AF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648443D7-1A92-4A78-A981-606D8291AF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648443D7-1A92-4A78-A981-606D8291AF4E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E707CD3-8DF9-4663-B0DD-7BC5A1DC394F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56824796-E1AD-4C49-ACE4-E00459CB32DA}
+	EndGlobalSection
+EndGlobal

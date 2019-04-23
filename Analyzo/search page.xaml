@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analyzo.search_page">
+    <ContentPage.Content>
+
+        <StackLayout Padding="20" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Margin="20" Source="youtupe2.png" HorizontalOptions="Center"  VerticalOptions="Start"></Image>
+            <Frame HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
+                <Entry Placeholder=" What's on your mind ?" ></Entry>
+            </Frame>
+            <Button Text="        Search        " TextColor="White" Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" BorderRadius="20" BackgroundColor="DarkRed"></Button>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
