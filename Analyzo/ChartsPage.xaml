@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analyzo.ChartsPage"
+             xmlns:local="clr-namespace:chartpie"
+             xmlns:chart="clr-namespace:SyncFusion.SfChart.XForms;assembly=SyncFusion.SfChart.XForms"
+             xmlns:chart1="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <chart1:SfChart VerticalOptions="FillAndExpand" BackgroundColor="#575454">
+
+                <!--for changing the type of the shape behind positive and negative and the font size of it -->
+                <chart1:SfChart.Legend>
+                    <chart1:ChartLegend>
+                        <chart1:ChartLegend.LabelStyle>
+                            <chart1:ChartLegendLabelStyle Font="19"/>
+                        </chart1:ChartLegend.LabelStyle>
+                    </chart1:ChartLegend>
+                </chart1:SfChart.Legend>
+
+
+                <chart1:SfChart.Series>
+
+                    <!--for receive the data from the class by the name of list(rat) and the datamembers of the class-->
+                    <chart1:PieSeries  LegendIcon="Circle" EnableAnimation="True" ItemsSource="{Binding rat}" XBindingPath="type" YBindingPath="quantity" EnableTooltip="True">
+                        <chart1:PieSeries.DataMarker>
+                            <chart1:ChartDataMarker LabelContent="Percentage">
+                            </chart1:ChartDataMarker>
+                        </chart1:PieSeries.DataMarker>
+                        <chart1:PieSeries.ColorModel>
+                            <chart1:ChartColorModel Palette="Custom">
+                                <chart1:ChartColorModel.CustomBrushes>
+                                    <!--set the colors of the pie chart-->
+                                    <Color>#A40617</Color>
+                                    <Color>#ffea29</Color>
+                                </chart1:ChartColorModel.CustomBrushes>
+                            </chart1:ChartColorModel>
+                        </chart1:PieSeries.ColorModel>
+                    </chart1:PieSeries>
+                </chart1:SfChart.Series>
+            </chart1:SfChart>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

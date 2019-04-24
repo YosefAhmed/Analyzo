@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Analyzo.Start_page">
-    <ContentPage.Content>
+             x:Class="Analyzo.Start_page" BackgroundColor="DarkRed"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content >
         <StackLayout>
             <Image Margin="20" 
-                   Source="youtube.png"
+                   Source="Analyzo.png"
                    HorizontalOptions="Center"  
-                   VerticalOptions="Start"
+                   VerticalOptions="Start">
             </Image>
-            <Button Text="     Start     " BackgroundColor="White " Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="30" BorderRadius="20" ></Button>
+            <Button Text="     Start     " BackgroundColor="White " Clicked="StartBtn_Clicked"  HorizontalOptions="FillAndExpand" VerticalOptions="Center"  BorderRadius="20" ></Button>
 
         </StackLayout>
     </ContentPage.Content>

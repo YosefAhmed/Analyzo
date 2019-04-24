@@ -10,7 +10,7 @@ namespace Analyzo
         {
             InitializeComponent();
 
-            MainPage = new Start_page();
+            MainPage = new NavigationPage(new Start_page());
         }
 
         protected override void OnStart()
